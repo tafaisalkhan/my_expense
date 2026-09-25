@@ -1,0 +1,233 @@
+[
+  {
+    "id": "cat_car",
+    "name": "Car",
+    "icon": "directions_car",
+    "defaultClassification": "NEED",
+    "sortOrder": 1,
+    "subcategories": [
+      { "id": "sub_car_fuel", "name": "Fuel", "defaultClassification": "NEED", "sortOrder": 1 },
+      { "id": "sub_car_maint", "name": "Maintenance", "defaultClassification": "NEED", "sortOrder": 2 },
+      { "id": "sub_car_repair", "name": "Repair", "defaultClassification": "REQUIRED", "sortOrder": 3 },
+      { "id": "sub_car_parking", "name": "Parking", "defaultClassification": "OPTIONAL", "sortOrder": 4 },
+      { "id": "sub_car_cleaning", "name": "Cleaning", "defaultClassification": "OPTIONAL", "sortOrder": 5 },
+      { "id": "sub_car_insurance", "name": "Insurance", "defaultClassification": "REQUIRED", "sortOrder": 6 },
+      { "id": "sub_car_reg", "name": "Registration", "defaultClassification": "REQUIRED", "sortOrder": 7 },
+      { "id": "sub_car_toll", "name": "Toll", "defaultClassification": "NEED", "sortOrder": 8 },
+      { "id": "sub_car_tyres", "name": "Tyres", "defaultClassification": "NEED", "sortOrder": 9 },
+      { "id": "sub_car_battery", "name": "Battery", "defaultClassification": "NEED", "sortOrder": 10 },
+      { "id": "sub_car_other", "name": "Other", "defaultClassification": "NEED", "sortOrder": 11 }
+    ]
+  },
+  {
+    "id": "cat_education",
+    "name": "Education",
+    "icon": "school",
+    "defaultClassification": "REQUIRED",
+    "sortOrder": 2,
+    "subcategories": [
+      { "id": "sub_edu_monthly", "name": "Monthly Fee", "defaultClassification": "REQUIRED", "sortOrder": 1 },
+      { "id": "sub_edu_annual", "name": "Annual Fee", "defaultClassification": "REQUIRED", "sortOrder": 2 },
+      { "id": "sub_edu_exam", "name": "Exam Fee", "defaultClassification": "REQUIRED", "sortOrder": 3 },
+      { "id": "sub_edu_admission", "name": "Admission Fee", "defaultClassification": "REQUIRED", "sortOrder": 4 },
+      { "id": "sub_edu_books", "name": "Books", "defaultClassification": "NEED", "sortOrder": 5 },
+      { "id": "sub_edu_uniform", "name": "Uniform", "defaultClassification": "NEED", "sortOrder": 6 },
+      { "id": "sub_edu_stationery", "name": "Stationery", "defaultClassification": "NEED", "sortOrder": 7 },
+      { "id": "sub_edu_tuition", "name": "Tuition", "defaultClassification": "NEED", "sortOrder": 8 },
+      { "id": "sub_edu_transport", "name": "Transport", "defaultClassification": "NEED", "sortOrder": 9 },
+      { "id": "sub_edu_trip", "name": "School Trip", "defaultClassification": "OPTIONAL", "sortOrder": 10 },
+      { "id": "sub_edu_activity", "name": "Activity Fee", "defaultClassification": "OPTIONAL", "sortOrder": 11 },
+      { "id": "sub_edu_other", "name": "Other", "defaultClassification": "NEED", "sortOrder": 12 }
+    ]
+  },
+  {
+    "id": "cat_house",
+    "name": "House",
+    "icon": "home",
+    "defaultClassification": "REQUIRED",
+    "sortOrder": 3,
+    "subcategories": [
+      { "id": "sub_house_rent", "name": "Rent", "defaultClassification": "REQUIRED", "sortOrder": 1 },
+      { "id": "sub_house_maint", "name": "Maintenance", "defaultClassification": "REQUIRED", "sortOrder": 2 },
+      { "id": "sub_house_repair", "name": "Repair", "defaultClassification": "NEED", "sortOrder": 3 },
+      { "id": "sub_house_furniture", "name": "Furniture", "defaultClassification": "OPTIONAL", "sortOrder": 4 },
+      { "id": "sub_house_appliances", "name": "Appliances", "defaultClassification": "OPTIONAL", "sortOrder": 5 },
+      { "id": "sub_house_cleaning", "name": "Cleaning", "defaultClassification": "NEED", "sortOrder": 6 },
+      { "id": "sub_house_other", "name": "Other", "defaultClassification": "NEED", "sortOrder": 7 }
+    ]
+  },
+  {
+    "id": "cat_utilities",
+    "name": "Utilities",
+    "icon": "bolt",
+    "defaultClassification": "REQUIRED",
+    "sortOrder": 4,
+    "subcategories": [
+      { "id": "sub_util_elec", "name": "Electricity", "defaultClassification": "REQUIRED", "sortOrder": 1 },
+      { "id": "sub_util_gas", "name": "Gas", "defaultClassification": "REQUIRED", "sortOrder": 2 },
+      { "id": "sub_util_water", "name": "Water", "defaultClassification": "REQUIRED", "sortOrder": 3 },
+      { "id": "sub_util_internet", "name": "Internet", "defaultClassification": "REQUIRED", "sortOrder": 4 },
+      { "id": "sub_util_mobile", "name": "Mobile", "defaultClassification": "NEED", "sortOrder": 5 },
+      { "id": "sub_util_phone", "name": "Telephone", "defaultClassification": "NEED", "sortOrder": 6 },
+      { "id": "sub_util_tv", "name": "TV", "defaultClassification": "OPTIONAL", "sortOrder": 7 },
+      { "id": "sub_util_other", "name": "Other", "defaultClassification": "NEED", "sortOrder": 8 }
+    ]
+  },
+  {
+    "id": "cat_groceries",
+    "name": "Groceries",
+    "icon": "shopping_cart",
+    "defaultClassification": "NEED",
+    "sortOrder": 5,
+    "subcategories": [
+      { "id": "sub_groc_wheat", "name": "Wheat", "defaultClassification": "NEED", "sortOrder": 1 },
+      { "id": "sub_groc_flour", "name": "Flour", "defaultClassification": "NEED", "sortOrder": 2 },
+      { "id": "sub_groc_rice", "name": "Rice", "defaultClassification": "NEED", "sortOrder": 3 },
+      { "id": "sub_groc_meat", "name": "Meat", "defaultClassification": "NEED", "sortOrder": 4 },
+      { "id": "sub_groc_chicken", "name": "Chicken", "defaultClassification": "NEED", "sortOrder": 5 },
+      { "id": "sub_groc_fish", "name": "Fish", "defaultClassification": "NEED", "sortOrder": 6 },
+      { "id": "sub_groc_milk", "name": "Milk", "defaultClassification": "NEED", "sortOrder": 7 },
+      { "id": "sub_groc_eggs", "name": "Eggs", "defaultClassification": "NEED", "sortOrder": 8 },
+      { "id": "sub_groc_veg", "name": "Vegetables", "defaultClassification": "NEED", "sortOrder": 9 },
+      { "id": "sub_groc_fruits", "name": "Fruits", "defaultClassification": "NEED", "sortOrder": 10 },
+      { "id": "sub_groc_oil", "name": "Cooking Oil", "defaultClassification": "NEED", "sortOrder": 11 },
+      { "id": "sub_groc_spices", "name": "Spices", "defaultClassification": "NEED", "sortOrder": 12 },
+      { "id": "sub_groc_snacks", "name": "Snacks", "defaultClassification": "OPTIONAL", "sortOrder": 13 },
+      { "id": "sub_groc_house", "name": "Household Grocery", "defaultClassification": "NEED", "sortOrder": 14 },
+      { "id": "sub_groc_other", "name": "Other", "defaultClassification": "NEED", "sortOrder": 15 }
+    ]
+  },
+  {
+    "id": "cat_food",
+    "name": "Food",
+    "icon": "restaurant",
+    "defaultClassification": "OPTIONAL",
+    "sortOrder": 6,
+    "subcategories": [
+      { "id": "sub_food_rest", "name": "Restaurant", "defaultClassification": "OPTIONAL", "sortOrder": 1 },
+      { "id": "sub_food_fast", "name": "Fast Food", "defaultClassification": "OPTIONAL", "sortOrder": 2 },
+      { "id": "sub_food_coffee", "name": "Coffee", "defaultClassification": "OPTIONAL", "sortOrder": 3 },
+      { "id": "sub_food_tea", "name": "Tea", "defaultClassification": "OPTIONAL", "sortOrder": 4 },
+      { "id": "sub_food_snacks", "name": "Snacks", "defaultClassification": "OPTIONAL", "sortOrder": 5 },
+      { "id": "sub_food_deliv", "name": "Delivery", "defaultClassification": "OPTIONAL", "sortOrder": 6 },
+      { "id": "sub_food_other", "name": "Other", "defaultClassification": "OPTIONAL", "sortOrder": 7 }
+    ]
+  },
+  {
+    "id": "cat_health",
+    "name": "Health",
+    "icon": "medical_services",
+    "defaultClassification": "REQUIRED",
+    "sortOrder": 7,
+    "subcategories": [
+      { "id": "sub_hlth_doc", "name": "Doctor", "defaultClassification": "REQUIRED", "sortOrder": 1 },
+      { "id": "sub_hlth_med", "name": "Medicine", "defaultClassification": "REQUIRED", "sortOrder": 2 },
+      { "id": "sub_hlth_hosp", "name": "Hospital", "defaultClassification": "REQUIRED", "sortOrder": 3 },
+      { "id": "sub_hlth_lab", "name": "Laboratory", "defaultClassification": "NEED", "sortOrder": 4 },
+      { "id": "sub_hlth_dent", "name": "Dental", "defaultClassification": "NEED", "sortOrder": 5 },
+      { "id": "sub_hlth_opt", "name": "Optical", "defaultClassification": "NEED", "sortOrder": 6 },
+      { "id": "sub_hlth_test", "name": "Medical Test", "defaultClassification": "NEED", "sortOrder": 7 },
+      { "id": "sub_hlth_other", "name": "Other", "defaultClassification": "NEED", "sortOrder": 8 }
+    ]
+  },
+  {
+    "id": "cat_transport",
+    "name": "Transport",
+    "icon": "commute",
+    "defaultClassification": "NEED",
+    "sortOrder": 8,
+    "subcategories": [
+      { "id": "sub_trsp_taxi", "name": "Taxi", "defaultClassification": "NEED", "sortOrder": 1 },
+      { "id": "sub_trsp_ride", "name": "Ride Hailing", "defaultClassification": "NEED", "sortOrder": 2 },
+      { "id": "sub_trsp_bus", "name": "Bus", "defaultClassification": "NEED", "sortOrder": 3 },
+      { "id": "sub_trsp_train", "name": "Train", "defaultClassification": "NEED", "sortOrder": 4 },
+      { "id": "sub_trsp_fuel", "name": "Fuel", "defaultClassification": "NEED", "sortOrder": 5 },
+      { "id": "sub_trsp_parking", "name": "Parking", "defaultClassification": "OPTIONAL", "sortOrder": 6 },
+      { "id": "sub_trsp_other", "name": "Other", "defaultClassification": "NEED", "sortOrder": 7 }
+    ]
+  },
+  {
+    "id": "cat_shopping",
+    "name": "Shopping",
+    "icon": "shopping_bag",
+    "defaultClassification": "OPTIONAL",
+    "sortOrder": 9,
+    "subcategories": [
+      { "id": "sub_shop_clothes", "name": "Clothes", "defaultClassification": "NEED", "sortOrder": 1 },
+      { "id": "sub_shop_shoes", "name": "Shoes", "defaultClassification": "NEED", "sortOrder": 2 },
+      { "id": "sub_shop_elec", "name": "Electronics", "defaultClassification": "OPTIONAL", "sortOrder": 3 },
+      { "id": "sub_shop_personal", "name": "Personal Care", "defaultClassification": "NEED", "sortOrder": 4 },
+      { "id": "sub_shop_house", "name": "Household", "defaultClassification": "NEED", "sortOrder": 5 },
+      { "id": "sub_shop_gifts", "name": "Gifts", "defaultClassification": "OPTIONAL", "sortOrder": 6 },
+      { "id": "sub_shop_other", "name": "Other", "defaultClassification": "OPTIONAL", "sortOrder": 7 }
+    ]
+  },
+  {
+    "id": "cat_entertainment",
+    "name": "Entertainment",
+    "icon": "movie",
+    "defaultClassification": "OPTIONAL",
+    "sortOrder": 10,
+    "subcategories": [
+      { "id": "sub_ent_movies", "name": "Movies", "defaultClassification": "OPTIONAL", "sortOrder": 1 },
+      { "id": "sub_ent_games", "name": "Games", "defaultClassification": "OPTIONAL", "sortOrder": 2 },
+      { "id": "sub_ent_events", "name": "Events", "defaultClassification": "OPTIONAL", "sortOrder": 3 },
+      { "id": "sub_ent_subs", "name": "Subscriptions", "defaultClassification": "OPTIONAL", "sortOrder": 4 },
+      { "id": "sub_ent_activities", "name": "Activities", "defaultClassification": "OPTIONAL", "sortOrder": 5 },
+      { "id": "sub_ent_other", "name": "Other", "defaultClassification": "OPTIONAL", "sortOrder": 6 }
+    ]
+  },
+  {
+    "id": "cat_personal",
+    "name": "Personal",
+    "icon": "person",
+    "defaultClassification": "NEED",
+    "sortOrder": 11,
+    "subcategories": [
+      { "id": "sub_pers_haircut", "name": "Haircut", "defaultClassification": "NEED", "sortOrder": 1 },
+      { "id": "sub_pers_care", "name": "Personal Care", "defaultClassification": "NEED", "sortOrder": 2 },
+      { "id": "sub_pers_clothing", "name": "Clothing", "defaultClassification": "NEED", "sortOrder": 3 },
+      { "id": "sub_pers_fitness", "name": "Fitness", "defaultClassification": "OPTIONAL", "sortOrder": 4 },
+      { "id": "sub_pers_other", "name": "Other", "defaultClassification": "NEED", "sortOrder": 5 }
+    ]
+  },
+  {
+    "id": "cat_charity",
+    "name": "Charity",
+    "icon": "volunteer_activism",
+    "defaultClassification": "REQUIRED",
+    "sortOrder": 12,
+    "subcategories": [
+      { "id": "sub_chr_donation", "name": "Donation", "defaultClassification": "REQUIRED", "sortOrder": 1 },
+      { "id": "sub_chr_zakat", "name": "Zakat", "defaultClassification": "REQUIRED", "sortOrder": 2 },
+      { "id": "sub_chr_sadaqah", "name": "Sadaqah", "defaultClassification": "REQUIRED", "sortOrder": 3 },
+      { "id": "sub_chr_other", "name": "Other", "defaultClassification": "REQUIRED", "sortOrder": 4 }
+    ]
+  },
+  {
+    "id": "cat_travel",
+    "name": "Travel",
+    "icon": "flight",
+    "defaultClassification": "OPTIONAL",
+    "sortOrder": 13,
+    "subcategories": [
+      { "id": "sub_trv_ticket", "name": "Ticket", "defaultClassification": "OPTIONAL", "sortOrder": 1 },
+      { "id": "sub_trv_hotel", "name": "Hotel", "defaultClassification": "OPTIONAL", "sortOrder": 2 },
+      { "id": "sub_trv_food", "name": "Food", "defaultClassification": "OPTIONAL", "sortOrder": 3 },
+      { "id": "sub_trv_trsp", "name": "Transport", "defaultClassification": "OPTIONAL", "sortOrder": 4 },
+      { "id": "sub_trv_visa", "name": "Visa", "defaultClassification": "OPTIONAL", "sortOrder": 5 },
+      { "id": "sub_trv_shop", "name": "Shopping", "defaultClassification": "OPTIONAL", "sortOrder": 6 },
+      { "id": "sub_trv_other", "name": "Other", "defaultClassification": "OPTIONAL", "sortOrder": 7 }
+    ]
+  },
+  {
+    "id": "cat_other",
+    "name": "Other",
+    "icon": "more_horiz",
+    "defaultClassification": "NEED",
+    "sortOrder": 14,
+    "subcategories": [
+      { "id": "sub_oth_general", "name": "General Other", "defaultClassification": "NEED", "sortOrder": 1 }
+    ]
+  }
+]
